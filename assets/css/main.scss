@@ -1,0 +1,107 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+
+@font-face {
+    font-family: 'Antonio';
+    font-weight: bold;
+    src: url('/assets/fonts/antonio-bold-webfont.woff2') format("woff2")
+}
+
+@font-face {
+    font-family: 'Antonio';
+    font-weight: normal;
+    src: url('/assets/fonts/antonio-regular-webfont.woff2') format("woff2")
+}
+
+@font-face {
+    font-family: 'Antonio';
+    font-weight: lighter;
+    src: url('/assets/fonts/Antonio-Light.ttf')
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('/assets/fonts/gotham-medium.otf');
+}
+
+$header-color: #e32726;
+$masthead-color: rgb(41, 41, 42);
+$white: #fff;
+$heading-font: Antonio, serif;
+$body-font: Gotham Medium, sans-serif;
+
+body {
+  font-family: $body-font;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, {
+  font-family: $heading_font;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: $header-color;
+}
+
+h1 { font-size: 3rem;}
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 1rem; }
+
+form {
+  text-align: left;
+}
+
+.page__hero--overlay {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.archive__item-title {
+  font-family: $heading-font;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 10px;
+  color: $header-color;
+}
+
+.splash { text-align: center; }
+
+.page__hero--overlay {
+  text-align: center;
+
+    .page__title {
+      font-family: $heading-font;
+      font-weight: bold;
+      color: $white;
+      font-size: 3rem;
+      text-transform: uppercase;
+      margin-top: 30px;
+    }
+
+    .page__lead {
+      max-width: 100%;
+      // text-align: center;
+      font-family: $body-font;
+    }
+  }
+// }
+
+.masthead, .greedy-nav {
+  background-color: $masthead-color;
+  font-family: $heading-font;
+
+  a {
+    color: $white;
+  }
+}

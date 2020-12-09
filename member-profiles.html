@@ -1,0 +1,21 @@
+---
+layout: single
+title: 'Member Profiles'
+permalink: /member-profiles
+---
+
+<h2>Current Board Members</h2>
+{% for member in site.data.member-profiles.current %}
+  <img src="/assets/images/{{member.image}}" alt="" style="max-height: 300px;"/>
+  <h3 style="color: #ccc;">{{ member.name }}</h3>
+  <h4>{{ member.job }}</h6>
+  <p>{{ member.bio }}</p>
+{% endfor %}
+
+<h2>Past Board Members</h2>
+{% for member in site.data.member-profiles.past %}
+  <img src="/assets/images/{{member.image}}" alt="" style="max-height: 300px;"/>
+  <h3 style="color: #ccc;">{{ member.name }}</h3>
+  <h4>{{ member.job }}</h6>
+  <p>{{ member.bio }}</p>
+{% endfor %}
