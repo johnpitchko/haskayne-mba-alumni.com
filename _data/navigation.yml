@@ -1,3 +1,5 @@
 main:
   - title: 'Member Profiles'
     url: /member-profiles
+  - title: Events
+    url: /events

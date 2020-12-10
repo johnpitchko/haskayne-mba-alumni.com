@@ -1,0 +1,26 @@
+---
+layout: single
+title: Events
+permalink: /events
+---
+
+<h2>Past Events</h2>
+
+{% for event in site.data.events.past %}
+  <div style="margin-top: 30px; margin-bottom: 30px; border-top-color: rgb(242, 243, 243); border-top-style: solid; border-top-width: 1px;">
+  {% if event.images.size == 1 %}
+    <img src="assets/images/{{ event.images.first }}" style="margin-top: 30px;"/>
+  {% endif %}
+
+  <h3>{{ event.title }}</h3>
+  {{ event.description | markdownify }}
+
+  {% if event.images.size > 1 %}
+    <div>
+    {% for image in event.images %}
+      <img src="assets/images/{{ image }}" style="max-width: 30%"/>
+    {% endfor %}
+    </div>
+  {% endif %}
+  </div>
+{% endfor %}
