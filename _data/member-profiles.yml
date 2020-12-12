@@ -9,7 +9,10 @@ current:
     image: Miriam-Ortega-DEC2017.jpg
   - name: John Pitchko
     job: Associate Dean, School of Information and Communications Technologies, SAIT
-    bio:
+    bio: |
+      I am a product manager and innovation leader with 15 years experience leading global teams in information technology, startup consulting, and post-secondary education sectors.
+
+      Since 2018, I have worked as Associate Dean in the School of Information and Communications Technologies at SAIT Polytechnic. In that time, I launched three new educational programs, doubled enrolment, and am spearheading new work-integrated learning opportunities. My goal is for every student to graduate with both a quality education and relevant work experience.
     image: John-Pitchko-DEC2017.jpg
   - name: Kai Hochhausen
     job: Operations Manager, Calgary Marriott Downtown Hotel
