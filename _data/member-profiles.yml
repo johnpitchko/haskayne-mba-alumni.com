@@ -8,11 +8,8 @@ current:
     bio:
     image: Miriam-Ortega-DEC2017.jpg
   - name: John Pitchko
-    job: Associate Dean, School of Information and Communications Technologies, SAIT
-    bio: |
-      I am a product manager and innovation leader with 15 years experience leading global teams in information technology, startup consulting, and post-secondary education sectors.
-
-      Since 2018, I have worked as Associate Dean in the School of Information and Communications Technologies at SAIT Polytechnic. In that time, I launched three new educational programs, doubled enrolment, and am spearheading new work-integrated learning opportunities. My goal is for every student to graduate with both a quality education and relevant work experience.
+    job: General Manager & Senior Software Engineer, SureSwift Capital
+    bio: I oversee the business and technical operations of Wingman Tracker, a journaling program for retail options traders. I lead a small team of developers, customer support agents, and marketers that responsible for building new features, serving customers, and growing the business.
     image: John-Pitchko-DEC2017.jpg
 
   - name: Kai Hochhausen
@@ -51,8 +48,8 @@ current:
     image:
 
   - name: Brad Gaulin
-    job: CEO, GoMentr
-    bio: Bradford (Brad) G. Gaulin, P.Eng., MBA, is the CEO of GOmentr, a Calgary internet start-up that has developed a unique experiential “peer” mentoring SaaS application targeted at helping universities grow funding by giving all students access to alumni as mentors, not just a chosen few.  Brad has a degree in Mechanical Engineering from the University of Alberta, an MBA specializing in Entrepreneurship from the University of Calgary & is a lifetime member of APEGA. Brad has more than 30 years of experience as a professional engineer, business executive & entrepreneur. He has started 5 companies of his own and is currently a cofounder with 3 technology startups.
+    job: CTO, MExit
+    bio: Brad is a serial entrepreneur & business growth coach specializing in an Agile Growth Transformation (AGT) process that incorporates ESG (environmental, social, governance) to futureproof companies & empowers owners to their business for more.  He has more than 40 years of experience as a professional engineer, business executive, business growth coach & entrepreneur. Throughout his career, he’s been a change agent & innovator in every organization he’s been in building from his core belief that “Change is hard, but not changing is fatal”.
     image: Brad-Gaulin-JAN2018.jpg
 
   - name: Priya Ramesh
